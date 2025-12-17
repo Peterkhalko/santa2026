@@ -30,7 +30,8 @@ export default function App() {
       }
     };
 
-    // Try to play immediately
+    
+    //// Try to play immediately
     playAudio();
 
     // Also play on first user interaction
