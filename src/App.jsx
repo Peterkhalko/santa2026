@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [name, setName] = useState("");
@@ -308,6 +309,9 @@ and joy find you more often than stress. ✨</p>
       >
         🛷🦌
       </motion.div>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
